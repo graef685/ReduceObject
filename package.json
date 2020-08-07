@@ -2,7 +2,7 @@
   "name": "jquery-reduce-object",
   "title": "jQuery ReduceObject",
   "version": "0.0.1",
-  "description": "jQuery plugin: JavaScript Array.reduce for plain objects",
+  "description": "jQuery plugin: JavaScript like Array.reduce for plain objects",
   "keywords": [
     "reduce",
     "object"
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/graef685/ReduceObject.git"
   },
-  "author": "Patrick Grï¿½f",
+  "author": "Patrick Gräf",
   "license": "GPL",
   "docs": "https://github.com/graef685/ReduceObject",
   "bugs": {
