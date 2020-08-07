@@ -32,6 +32,8 @@ The ``` callback ``` function receives following arguments:
 ```c2hs
 dest   -> previous value
 curr   -> actual value in iteration
+key    -> actual key in iteration
+obj    -> the original object
 ```
 
 
@@ -40,12 +42,12 @@ curr   -> actual value in iteration
 * Include ```jquery.reduce-object.min.js``` into your Project
 
 ```js
-var obj = {
+var objA = {
     keyA = { value: 2 },
     keyB = { value: 9 }
 };
 
-var result = $.reduceObject(obj, function(dest, curr) {
+var result = $.reduceObject(objA, function(dest, curr, key, obj) {
     dest += curr;
     return dest;
 }, { value: 31 });
