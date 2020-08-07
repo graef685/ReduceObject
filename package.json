@@ -1,7 +1,7 @@
 {
   "name": "jquery-reduce-object",
   "title": "jQuery ReduceObject",
-  "version": "0.3.9",
+  "version": "0.0.1",
   "description": "jQuery plugin: JavaScript Array.reduce for plain objects",
   "keywords": [
     "reduce",
